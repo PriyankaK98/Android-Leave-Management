@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.priyanka.leavemanagement">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="Leave Management System"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".IconActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".TeacherActivity" />
+        <activity android:name=".HOD_Activity" />
+        <activity android:name=".Homepage_Activity" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".SignupActivity" />
+        <activity android:name=".ResetActivity" />
+        <activity android:name=".My_infoActivity" />
+        <activity android:name=".HODLoginActivity" />
+        <!--
+ ATTENTION: This was auto-generated to add Google Play services to your project for
+     App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information.
+        -->
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity android:name=".DirectActivity" />
+        <activity android:name=".TypeActivity" />
+        <activity android:name=".ListViewActivity" />
+        <activity android:name=".PdfActivity" />
+        <activity android:name=".Btn1Activity" />
+        <activity android:name=".Btn2Activity" />
+        <activity android:name=".Btn3Activity" />
+        <activity android:name=".Btn4Activity" />
+        <activity android:name=".Btn5Activity" />
+        <activity android:name=".PrincipalActivity" />
+        <activity android:name=".EstablishmentSectionActivity" />
+        <activity android:name=".PrinListActivity" />
+        <activity android:name=".EstabHomeActivity"></activity>
+    </application>
+
+</manifest>

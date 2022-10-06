@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_icon"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.priyanka.leavemanagement.IconActivity">
+
+    <TextView
+        android:id="@+id/tvHod"
+        android:layout_width="wrap_content"
+        android:layout_height="29dp"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/btnHod"
+        android:layout_marginEnd="15dp"
+        android:layout_marginTop="12dp"
+        android:fontFamily="serif"
+        android:text="Login For Hod"
+        android:textAlignment="center"
+        android:textColor="@color/colorAccent"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvStaff"
+        android:layout_width="wrap_content"
+        android:layout_height="29dp"
+        android:layout_alignBaseline="@+id/tvHod"
+        android:layout_alignBottom="@+id/tvHod"
+        android:layout_alignEnd="@+id/btnStaff"
+        android:layout_marginEnd="13dp"
+        android:fontFamily="serif"
+        android:text="Login For Staff"
+        android:textAlignment="center"
+        android:textColor="@color/colorAccent"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnHod"
+        android:layout_width="150dp"
+        android:layout_height="180dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_weight="0.20"
+        android:background="@drawable/hod1"
+        android:textAlignment="center"
+        android:textSize="30dp" />
+
+    <Button
+        android:id="@+id/btnPrin"
+        android:layout_width="150dp"
+        android:layout_height="180dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/tvStaff"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/preview"
+        android:text="" />
+
+    <Button
+        android:id="@+id/btnEs"
+        android:layout_width="150dp"
+        android:layout_height="180dp"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/tvHod"
+        android:background="@drawable/office"
+        android:text="" />
+
+    <Button
+        android:id="@+id/btnStaff"
+        android:layout_width="150dp"
+        android:layout_height="180dp"
+
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/btnPrin"
+        android:layout_weight="0.39"
+        android:background="@drawable/staff"
+
+        android:textAlignment="center"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/tvPrin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="17dp"
+        android:fontFamily="serif"
+        android:text="Login For Principal"
+        android:textColor="@color/colorAccent"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:layout_alignParentBottom="true"
+        android:layout_alignEnd="@+id/tvStaff" />
+
+    <TextView
+        android:id="@+id/tvEs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="serif"
+        android:text="             Login For \nEstablishment section"
+        android:textColor="@color/colorAccent"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:layout_alignBottom="@+id/tvPrin"
+        android:layout_alignParentEnd="true" />
+
+</RelativeLayout>
+

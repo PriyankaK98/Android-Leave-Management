@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_wel"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.priyanka.leavemanagement.SignupActivity">
+
+    <EditText
+        android:id="@+id/etSignupemail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Enter Email-id"
+        android:inputType="textEmailAddress"
+        android:layout_below="@+id/etBranch"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="serif"/>
+
+    <EditText
+        android:id="@+id/etSignuppassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Enter Password"
+        android:inputType="textPassword"
+        android:layout_below="@+id/etSignupemail"
+        android:layout_alignLeft="@+id/etSignupemail"
+        android:layout_alignStart="@+id/etSignupemail"
+        android:fontFamily="serif"/>
+
+    <Button
+        android:id="@+id/btnRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:layout_below="@+id/etSignuppassword"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="17dp"
+        android:background="@color/colorCyan"
+        android:textSize="20sp"
+        android:fontFamily="serif"/>
+</RelativeLayout>
